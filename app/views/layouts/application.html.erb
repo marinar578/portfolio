@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:500,100,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="header"> 
+ <div class="container"> 
+  <div class="row"> 
+    <div class="name col-xs-6"> <h1>Marina Rozova</h1> 
+    </div>
+    <div class="menu col-xs-6"> 
+      <ul>
+        <li>
+          <a href="/">Welcome</a>
+        </li>
+			 <li>
+         <a href="portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="about">About</a>
+        </li> 
+        <li>
+          <a href="contact">Contact</a>
+        </li> 
+      </ul> 
+    </div> 
+
+    </div> 
+   </div> 
+  </div> 
+
+
+
+<%= yield %>
+
+  
+  <div class="footer"> 
+  <div class="container">
+    <div class="row">
+      <p class="col-xs-8">© 2015 Marina Rozova</p>
+      <ul class="social_media col-xs-4"> 
+        <li><a class="github" href="https://github.com/marinar578">github</a></li> 
+        <li><a class="linkedin" href="https://www.linkedin.com/in/rozovamarina">linkedin</a></li> 
+      </ul> 
+    </div>
+  </div> 
+ </div>
+</body>
+</html>
