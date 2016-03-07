@@ -5,9 +5,54 @@
 .supporting{
   margin: 20px 0px 20px 100px;
   text-align: center;
+  border-top: solid black 1px;
 }
 
 .supporting img{
-  height: 200px;
+  /*height: 200px;*/
   padding: 15px 0px;
+}
+
+.row{
+    height: 350pt;
+}
+
+.first{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300pt;
+}
+
+.first img{
+    height: 250pt;
+}
+
+.second {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300pt;
+}
+
+.second img{
+    width: 80%;
+    height: 250pt;
+}
+
+.ga-project p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 9pt;
+}
+
+.codecad{
+    margin-left: auto;
+    margin-right: auto;
+    height: 300pt;
+}
+
+.codecad img{
+    width: 80%;
+    height: 175pt;
 }
