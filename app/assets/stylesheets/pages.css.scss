@@ -3,15 +3,19 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 head {
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
-  background-color: #F9FCFF;
+  // background-color: #F9FCFF;
+  background-color: #f4f0eb;
 }
 
+
+
 .header {
-  background-color: #F9FCFF;
+  // background-color: #F9FCFF;
+  background-color: #f4f0eb;
   margin: 0;
   padding: 20px 0;
   color: white;
@@ -19,7 +23,7 @@ body{
 }
 
 .header .name{
-    font: 400 15px/1.5 'Pacifico', Helvetica, sans-serif;
+  font: 400 15px/1.5 'Pacifico', Helvetica, sans-serif;
   color: #2b2b2b;
 
 }
